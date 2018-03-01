@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="tests.basics3">
+        <methods>
+          <include name="envData"/>
+        </methods>
+      </class> <!-- tests.basics3 -->
+      <class name="tests.basics6">
+        <methods>
+          <include name="envData"/>
+        </methods>
+      </class> <!-- tests.basics6 -->
+      <class name="tests.basics8">
+        <methods>
+          <include name="envData"/>
+          <include name="jiraApi1"/>
+        </methods>
+      </class> <!-- tests.basics8 -->
+      <class name="tests.basics7">
+        <methods>
+          <include name="envData"/>
+        </methods>
+      </class> <!-- tests.basics7 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

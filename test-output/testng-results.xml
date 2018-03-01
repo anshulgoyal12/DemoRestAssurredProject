@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4772" started-at="2018-01-25T11:38:20Z" finished-at="2018-01-25T11:38:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4772" started-at="2018-01-25T11:38:20Z" finished-at="2018-01-25T11:38:25Z">
+      <class name="tests.basics9">
+        <test-method status="PASS" signature="createTweet()[pri:0, instance:tests.basics9@25b2fe]" name="createTweet" duration-ms="3379" started-at="2018-01-25T17:08:20Z" finished-at="2018-01-25T17:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTweet -->
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:tests.basics9@25b2fe]" name="deleteTweet" duration-ms="676" started-at="2018-01-25T17:08:24Z" finished-at="2018-01-25T17:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+        <test-method status="PASS" signature="getLatestTweet()[pri:0, instance:tests.basics9@25b2fe]" name="getLatestTweet" duration-ms="685" started-at="2018-01-25T17:08:24Z" finished-at="2018-01-25T17:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLatestTweet -->
+      </class> <!-- tests.basics9 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
