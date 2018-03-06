@@ -15,7 +15,7 @@ public class basics2 {
 		
 		given().
 		
-		queryParam("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2w").
+		queryParam("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2").
 		body("{"+
   "\"location\": {"+
     "\"lat\": -33.8669710,"+
