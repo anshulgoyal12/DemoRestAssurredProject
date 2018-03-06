@@ -50,7 +50,7 @@ public class basics3 {
 		System.out.println(placeId);
 		
 		given().
-		queryParam("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2w").
+		queryParam("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2").
 		body("{"+
   "\"place_id\": \""+placeId+"\""+
 "}").
