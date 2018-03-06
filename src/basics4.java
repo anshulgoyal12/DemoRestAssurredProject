@@ -23,7 +23,7 @@ public class basics4 {
 		
 		Response resp = given().
 		
-		queryParam("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2w").
+		queryParam("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2").
 		body(postData).
 		when().
 		post("/maps/api/place/add/xml").
