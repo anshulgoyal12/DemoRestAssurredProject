@@ -20,7 +20,7 @@ public class basics5 {
 				param("location","23.0295345,72.5639128").
 				param("radius","500").
 				param("type","restaurant").
-				param("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2w").
+				param("key","AIzaSyBfU_WlcnPDTI1rdjYW0WqQOdVhQqx8Q2").
 				when().
 				get("/maps/api/place/nearbysearch/json").
 				then().assertThat().statusCode(200).and().contentType(ContentType.JSON).and().
